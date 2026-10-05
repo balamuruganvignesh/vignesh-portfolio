@@ -19,7 +19,7 @@ export function Contact() {
 
       <Reveal delay={0.05}>
         <h2 className="mt-4 text-balance font-serif text-4xl leading-tight text-paper sm:text-5xl">
-          Let's talk data, dashboards,
+          Let's talk data, finance,
           <br className="hidden sm:block" /> or the next big idea.
         </h2>
       </Reveal>

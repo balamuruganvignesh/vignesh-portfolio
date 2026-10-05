@@ -4,9 +4,9 @@ export const profile = {
   email: "vignesh.balamurugan@rutgers.edu",
   linkedin: "https://linkedin.com/in/vigneshbalamurugan",
   resume: "/Vignesh-Balamurugan-Resume.pdf",
-  tagline: "Finance & Business Analytics student turning data into decisions.",
+  tagline: "Finance & Business Analytics student applying data science to financial decisions.",
   blurb:
-    "I'm a student at Rutgers Business School studying Finance and Business Analytics & Information Technology. I like building dashboards and models that make messy data legible — and leading teams that ship real software for real people.",
+    "I'm a student at Rutgers Business School studying Finance and Business Analytics & Information Technology. I use data analytics and statistical modeling to answer financial questions, from credit risk to fraud detection, and I lead teams that ship real software for real people.",
 };
 
 export const education = {
@@ -97,7 +97,7 @@ export const experience = [
     location: "South Brunswick, NJ",
     date: "Aug 2024 – Mar 2025",
     bullets: [
-      "Engaged with 100+ customers daily, delivering exceptional service and driving sales — contributing to the highest store sales in 3 years through personalized recommendations and upselling",
+      "Engaged with 100+ customers daily, delivering exceptional service and driving sales and contributing to the highest store sales in 3 years through personalized recommendations and upselling",
       "Improved drive-thru efficiency, cutting average service time from 75 to 45 seconds per customer, enhancing speed and satisfaction",
     ],
   },
@@ -105,7 +105,7 @@ export const experience = [
 
 export const projects = [
   {
-    title: "Credit Portfolio Expected Loss & Stress Testing Dashboard",
+    title: "Credit Portfolio Expected Loss & Stress Testing Model",
     description:
       "A Python/SQL model calculating expected loss (PD × LGD × EAD) and aggregating portfolio-level credit risk, paired with an interactive dashboard for stress-scenario analysis.",
     bullets: [
@@ -113,7 +113,7 @@ export const projects = [
       "Developed an interactive dashboard to analyze portfolio sensitivity under stress scenarios, improving risk-assessment speed by ~35%",
       "Aggregated loan-level data into portfolio-level insights to support risk management decision-making",
     ],
-    tags: ["Python", "SQL", "Risk Modeling", "Dashboards"],
+    tags: ["Python", "SQL", "Risk Modeling", "Data Analysis"],
     links: [{ label: "GitHub", href: "https://github.com/balamuruganvignesh/Credit-risk-dashboard" }],
   },
   {
@@ -131,10 +131,10 @@ export const projects = [
     title: "The Prediction Game",
     badge: "Hobby project",
     description:
-      "A real-time multiplayer trick-taking card game (Judgement) for 2–10 players in the browser — plus Hearts and Blackjack at the same table. No accounts, just a 4-letter table code.",
+      "A real-time multiplayer trick-taking card game (Judgement) for 2–10 players in the browser, plus Hearts and Blackjack at the same table. No accounts, just a 4-letter table code.",
     bullets: [
       "Built a Socket.io + Express real-time game server with all table state held in memory, synced live across every connected player",
-      "Implemented three full card game rule sets — bidding/trick-taking, Hearts (with passing and shoot-the-moon), and Blackjack (vs-dealer and vs-players modes)",
+      "Implemented three full card game rule sets: bidding/trick-taking, Hearts (with passing and shoot-the-moon), and Blackjack (vs-dealer and vs-players modes)",
       "Designed a secret 'Double' side-bet mechanic and a 3-second between-trick beat so play never skips a disconnected or slow player",
       "Deployed on Fly.io with Docker, running as a single always-on process to keep every table's state consistent",
     ],

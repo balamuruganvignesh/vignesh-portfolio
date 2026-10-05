@@ -1,4 +1,4 @@
-# Vignesh Balamurugan — Portfolio
+# Vignesh Balamurugan: Portfolio
 
 Personal portfolio site built with Vite, React, TypeScript, Tailwind CSS v4, and Framer Motion.
 
