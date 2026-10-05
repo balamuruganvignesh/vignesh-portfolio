@@ -62,7 +62,7 @@ export const experience = [
     org: "Rutgers School of Art & Sciences",
     role: "Learning Assistant, Calc 1 and Pre-Calc 2",
     location: "New Brunswick, NJ",
-    date: "Sep 2025 – May 2026",
+    date: "Aug 2026 – Present",
     bullets: [
       "Facilitate weekly discussion sections and office hours, reinforcing lecture concepts in Calculus/Pre-Calculus fundamentals for 30+ students",
       "Grade assignments against course rubrics and work with the instructor to identify and address common misconceptions",
@@ -114,6 +114,7 @@ export const projects = [
       "Aggregated loan-level data into portfolio-level insights to support risk management decision-making",
     ],
     tags: ["Python", "SQL", "Risk Modeling", "Dashboards"],
+    links: [{ label: "GitHub", href: "https://github.com/balamuruganvignesh/Credit-risk-dashboard" }],
   },
   {
     title: "Fraud & Anti-Money Laundering Detection Network",
@@ -124,6 +125,7 @@ export const projects = [
       "Integrated the Gemini API to flag and summarize anomalous transactions for analyst review",
     ],
     tags: ["Python", "SQL", "NetworkX", "Gemini API"],
+    links: [{ label: "GitHub", href: "https://github.com/balamuruganvignesh/fraud-aml-detection" }],
   },
   {
     title: "The Prediction Game",
