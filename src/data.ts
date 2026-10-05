@@ -1,7 +1,7 @@
 export const profile = {
   name: "Vignesh Balamurugan",
   location: "South Brunswick, NJ",
-  email: "vignesh.balamuruagn@rutgers.edu",
+  email: "vignesh.balamurugan@rutgers.edu",
   linkedin: "https://linkedin.com/in/vigneshbalamurugan",
   tagline: "Finance & Business Analytics student turning data into decisions.",
   blurb:
@@ -40,7 +40,7 @@ export const experience = [
     org: "Rutgers School of Art & Sciences",
     role: "Learning Assistant, Calc 1 and Pre-Calc 2",
     location: "New Brunswick, NJ",
-    date: "Sep 2026 – May 2026",
+    date: "Sep 2025 – May 2026",
     bullets: [
       "Facilitate weekly discussion sections and office hours, reinforcing lecture concepts in Calculus/Pre-Calculus fundamentals for 30+ students",
       "Grade assignments against course rubrics and work with the instructor to identify and address common misconceptions",
