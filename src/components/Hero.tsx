@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, FileText } from "lucide-react";
 import { profile } from "../data";
 
 const container = {
@@ -59,6 +59,15 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-sm font-medium text-paper transition-colors hover:border-accent hover:text-accent"
           >
             Get in touch
+          </a>
+          <a
+            href={profile.resume}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-line px-6 py-3 text-sm font-medium text-paper transition-colors hover:border-accent hover:text-accent"
+          >
+            <FileText size={16} />
+            Resume
           </a>
         </motion.div>
       </motion.div>

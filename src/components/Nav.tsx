@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { profile } from "../data";
 
 const links = [
   { id: "about", label: "About" },
@@ -68,6 +69,16 @@ export function Nav() {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href={profile.resume}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-accent/50 px-4 py-1.5 text-sm text-accent transition-colors hover:bg-accent hover:text-ink"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <button
@@ -99,6 +110,17 @@ export function Nav() {
                 </a>
               </li>
             ))}
+            <li>
+              <a
+                href={profile.resume}
+                target="_blank"
+                rel="noreferrer"
+                onClick={() => setOpen(false)}
+                className="block px-6 py-3 text-sm text-accent hover:bg-white/5"
+              >
+                Resume
+              </a>
+            </li>
           </motion.ul>
         )}
       </AnimatePresence>

@@ -3,6 +3,7 @@ export const profile = {
   location: "South Brunswick, NJ",
   email: "vignesh.balamurugan@rutgers.edu",
   linkedin: "https://linkedin.com/in/vigneshbalamurugan",
+  resume: "/Vignesh-Balamurugan-Resume.pdf",
   tagline: "Finance & Business Analytics student turning data into decisions.",
   blurb:
     "I'm a student at Rutgers Business School studying Finance and Business Analytics & Information Technology. I like building dashboards and models that make messy data legible — and leading teams that ship real software for real people.",
@@ -37,17 +38,6 @@ export const experience = [
     ],
   },
   {
-    org: "Rutgers School of Art & Sciences",
-    role: "Learning Assistant, Calc 1 and Pre-Calc 2",
-    location: "New Brunswick, NJ",
-    date: "Sep 2025 – May 2026",
-    bullets: [
-      "Facilitate weekly discussion sections and office hours, reinforcing lecture concepts in Calculus/Pre-Calculus fundamentals for 30+ students",
-      "Grade assignments against course rubrics and work with the instructor to identify and address common misconceptions",
-      "Hold walk-in tutoring hours to help students debug queries and troubleshoot data analysis exercises",
-    ],
-  },
-  {
     org: "Rutgers School of Communication & Information",
     role: "IT Helpdesk Associate",
     location: "New Brunswick, NJ",
@@ -60,13 +50,23 @@ export const experience = [
   },
   {
     org: "Rutgers Hack4Impact",
-    role: "Co-Executive Director",
+    role: "Executive Director",
     location: "Piscataway, NJ",
-    date: "Jul 2025 – Present",
+    date: "Jul 2025 – Sep 2026",
     bullets: [
       "Direct a 20-member multidisciplinary team to design and launch a full-cycle software product for a nonprofit client, owning project scope, timelines, and deliverables",
-      "Lead stakeholder communication and requirements gathering, ensuring alignment between client needs and technical execution throughout the development lifecycle",
-      "Build and maintain internal operations infrastructure in Notion, improving project tracking, task allocation, and team accountability and increasing internal efficiency by 130–200%",
+      "Build the organization's website with Sanity (headless CMS) and develop bootcamp infrastructure and training resources to onboard and upskill incoming team members",
+    ],
+  },
+  {
+    org: "Rutgers School of Art & Sciences",
+    role: "Learning Assistant, Calc 1 and Pre-Calc 2",
+    location: "New Brunswick, NJ",
+    date: "Sep 2025 – May 2026",
+    bullets: [
+      "Facilitate weekly discussion sections and office hours, reinforcing lecture concepts in Calculus/Pre-Calculus fundamentals for 30+ students",
+      "Grade assignments against course rubrics and work with the instructor to identify and address common misconceptions",
+      "Hold walk-in tutoring hours to help students debug queries and troubleshoot data analysis exercises",
     ],
   },
   {
@@ -116,14 +116,14 @@ export const projects = [
     tags: ["Python", "SQL", "Risk Modeling", "Dashboards"],
   },
   {
-    title: "Customer Churn & Revenue Retention Analysis",
+    title: "Fraud & Anti-Money Laundering Detection Network",
     description:
-      "An analysis of customer behavior data to identify churn drivers and segment users, backed by a predictive model and targeted retention strategy.",
+      "A fraud/AML detection pipeline that models transactions as a graph to surface money-laundering rings, with LLM-assisted triage for analysts.",
     bullets: [
-      "Analyzed customer behavior data in Python/SQL to identify key drivers of churn and segment users by risk",
-      "Built a predictive churn model achieving ~78% accuracy and proposed targeted retention strategies projected to reduce churn by ~15%",
+      "Built a fraud/AML detection pipeline in Python and SQL, using NetworkX to model transaction relationships as a graph and surface patterns indicative of money laundering rings",
+      "Integrated the Gemini API to flag and summarize anomalous transactions for analyst review",
     ],
-    tags: ["Python", "SQL", "Predictive Modeling", "Analytics"],
+    tags: ["Python", "SQL", "NetworkX", "Gemini API"],
   },
   {
     title: "The Prediction Game",
