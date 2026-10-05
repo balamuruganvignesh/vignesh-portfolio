@@ -2,6 +2,14 @@ import { motion } from "framer-motion";
 import { Reveal } from "./Reveal";
 import { experience } from "../data";
 
+// Start date from strings like "Jul 2026 – Present", used to list newest first.
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const startOf = (date: string) => {
+  const [month, year] = date.split("–")[0].trim().split(" ");
+  return Number(year) * 12 + MONTHS.indexOf(month);
+};
+const sortedExperience = [...experience].sort((a, b) => startOf(b.date) - startOf(a.date));
+
 export function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-5xl px-6 py-28">
@@ -23,7 +31,7 @@ export function Experience() {
         />
 
         <div className="space-y-14">
-          {experience.map((job, i) => (
+          {sortedExperience.map((job, i) => (
             <Reveal key={job.org} delay={i * 0.08}>
               <div className="relative sm:pl-12">
                 <span className="absolute top-1.5 left-0 hidden h-[15px] w-[15px] rounded-full border-2 border-accent bg-ink sm:block" />
